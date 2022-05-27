@@ -41,11 +41,15 @@
 
 ## Output
 <img src="output/1.png">
+
 <img src="output/2.png">
+
 <img src="output/3.png">
+
 <img src="output/4.png">
-<img src="output/5.png">
-## Api response
+
+## Sample Api response
+
 ```
 [
     {
@@ -77,66 +81,6 @@
         "year": "2022",
         "poster": "https://drive.google.com/uc?id=1udIRof0ibiyf65yS4gG1BsUW50L4LWBD",
         "trailer": "https://drive.google.com/uc?id=19Y3QrtVSTkaNLNGtC4NELclksrLEKSXI"
-    },
-    {
-        "_id": "628f681ac58443d3dc0a744e",
-        "duration": "2h 4m",
-        "rating": "PG-13",
-        "summary": "World famous movie star Olivia faces a PR disaster when a paparazzi snaps a photo of her with her married lover, Vincent. The hard-working valet Antonio accidentally appears in the same photo and is enlisted to pose as Olivia’s new boyfriend as a cover-up. This ruse with Olivia thrusts Antonio into the spotlight and unexpected chaos.",
-        "title": "The Valet",
-        "year": "2022",
-        "poster": "https://drive.google.com/uc?id=1F4gg2P2RuuTpnjnwmg8Wlgvio4MoBtg2",
-        "trailer": "https://drive.google.com/uc?id=1Irl98OVwbow1NYtkt2fdS-Xri1IhU6h2"
-    },
-    {
-        "_id": "628f681fc58443d3dc0a7450",
-        "duration": "25m",
-        "rating": "TV-14",
-        "summary": "After a global financial crisis, the world is engulfed in an AI-driven \"sustainable war.\" It's up to Section 9 to counter new forms of cyber threats",
-        "title": "Ghost in The Shell:SAC_2045",
-        "year": "2020",
-        "poster": "https://drive.google.com/uc?id=1L1GRwB32zELyv2ztlrhpVzfKBXKRaT1W",
-        "trailer": "https://drive.google.com/uc?id=1mZSGHqgFfHa9-fI1EORQRaQsKnnJKGc0"
-    },
-    {
-        "_id": "628f682fc58443d3dc0a7452",
-        "duration": "40m",
-        "rating": "TV-MA",
-        "summary": "Hell-bent on exacting revenge and proving he was framed for his sister's murder, Álex sets out to unearth much more than the crime's real culprit.",
-        "title": "Who Killed Sara",
-        "year": "2021",
-        "poster": "https://drive.google.com/uc?id=1jYIV3MIzTQq4lLLHEhoYjonNcB5b4e_B",
-        "trailer": "https://drive.google.com/uc?id=1MUaGWkWUnRaUOaunIRw8qUrn-BkiXsWG"
-    },
-    {
-        "_id": "628f6835c58443d3dc0a7453",
-        "duration": "45m",
-        "rating": "TV-MA",
-        "summary": "This new Colombian telenovela is about a man who has to watch his wife die and have her heart extracted to give to another woman. He’s out for revenge in the world of organ trafficking.",
-        "title": "The Marked Heart",
-        "year": "2022",
-        "poster": "https://drive.google.com/uc?id=1vRDrYJEi9Lmnu05_OU4oLGw6lRLwDzF8",
-        "trailer": "https://drive.google.com/uc?id=1Lrvm6v_s7MPoVLjVVLmi_ZNsDghcr-Oe"
-    },
-    {
-        "_id": "628f683ac58443d3dc0a7454",
-        "duration": "24m",
-        "rating": "TV-14",
-        "summary": "Master spy Twilight is the best at what he does when it comes to going undercover on dangerous missions in the name of a better world. But when he receives the ultimate impossible assignment—get married and have a kid—he may finally be in over his head!\n\nNot one to depend on others, Twilight has his work cut out for him procuring both a wife and a child for his mission to infiltrate an elite private school. What he doesn't know is that the wife he's chosen is an assassin and the child he's adopted is a telepath!",
-        "title": "SPY x FAMILY",
-        "year": "2022",
-        "poster": "https://drive.google.com/uc?id=1IbI-MEi1TNfalJtxmL6qDeugA4GdKeX0",
-        "trailer": "https://drive.google.com/uc?id=1nCNXtTW4bFFfrCbvGmWcVHsuBQIXab7d"
-    },
-    {
-        "_id": "628f683fc58443d3dc0a7455",
-        "duration": "1h 36m",
-        "rating": "R",
-        "summary": "Stranded at a rest stop in the mountains during a blizzard, a recovering addict discovers a kidnapped child hidden in a car belonging to one of the people inside the building which sets her on a terrifying struggle to identify who among them is the kidnapper.",
-        "title": "No Exit",
-        "year": "2022",
-        "poster": "https://drive.google.com/uc?id=1hQZ2eFVf6bbHtWSbMNmr_NbXsRthvVBg",
-        "trailer": "https://drive.google.com/uc?id=152eILE6K71avDd5csgtm4mGkrVS8RDxF"
     }
 ]
 ```
