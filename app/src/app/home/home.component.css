@@ -1,0 +1,206 @@
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+}
+.nav span{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 14px;
+    line-height: 60px;
+}
+.body{
+    padding-top: 60px;
+    width: 100%;
+    height: calc(100% - 60px);
+    background-color: rgba(0, 0, 0, 0.94);
+    overflow-x: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+.body::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+.body::-webkit-scrollbar-thumb{
+    background-color: #747879;
+    border-radius: 1px;
+}
+.body .heading{
+    max-width: 1300px;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 16px;
+    line-height: 38px;
+}
+.movie-container{
+    max-width: 1300px;
+    margin: 8px auto;
+    text-align: center;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+}
+.movie-container::-webkit-scrollbar {
+    width: 0;
+    height: 4px;
+}
+.movie-container::-webkit-scrollbar-thumb{
+    background-color: #747879;
+    border-radius: 1px;
+}
+.movie-container img{
+    margin: 6px;
+    border-radius: 4px;
+    width: 200px;
+    margin: 5px;
+    cursor: pointer;
+}
+.movie-dialog{
+    background-color: rgba(22, 22, 22, 0.967);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    min-width: 720px;
+}
+.movie-dialog img{
+    cursor: pointer;
+    width: 200px;
+    margin: 24px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    margin-left: 32px;
+}
+.m-right{
+    position: absolute;
+    overflow: hidden;
+    height: calc(100% - 38px);
+    right: 34px;
+    top: 38px;
+    width: calc(100% - 290px);
+}
+.m-right .title{
+    font-size: 32px;
+    line-height: 36px;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.m-right .details{
+    line-height: 40px;
+    padding-left: 4.5px;
+    font-size: 17px;
+}
+.m-right .details span{
+    padding-right:12px;
+    font-weight: 400;
+    color: #d5d5d5;
+}
+.m-right .summary{
+    font-weight: 400;
+    font-size: 15px;
+    max-width: 700px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    line-height: 19.5px;
+    padding-left: 4.5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.movie-dialog .clear{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 3;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 28px;
+    background-color: #555454ac;
+    color: white;
+}
+.m-right .preview{
+    background-color: rgba(11, 11, 11, 0.857);
+    font-size: 16px;
+    line-height: 54px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.m-right .preview span{
+    position: relative;
+    top: 7px;
+    padding: 0 12px;
+    font-size: 24px;
+}
+.m-right .preview span:nth-child(2){
+    right: 0;
+    top: 14px;
+    position: absolute;
+}
+@media screen and (max-width:1000px) {
+    .movie-container img{
+        width: 115px;
+        margin: 5px 4px;
+    }
+    .body .heading{
+        font-size: 22px;
+        margin: 0 16px;
+    }
+    .movie-dialog{
+        max-width: 100%;
+        min-width: 0;
+        width: 100%;
+    }
+    .movie-dialog img{
+        width: 120px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        margin-left: 8px;
+    }
+    .m-right{
+        width: calc(100% - 150px);
+        right: 12px;
+        top: 42px;
+        height: calc(100% - 42px);
+    }
+    .movie-dialog .clear{
+        top: 8px;
+        right: 8px;
+    }
+    .m-right .summary{
+        max-height: 62px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -moz-box-orient: vertical;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .m-right .preview{
+        bottom: 14px;
+        right: 8px;
+    }
+    .m-right .title{
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 26px;
+        text-overflow: ellipsis;
+    }
+}

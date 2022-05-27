@@ -1,0 +1,74 @@
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+.nav span{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 14px;
+    line-height: 60px;
+}
+.nav strong{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 4px;
+    margin-left: 3px;
+}
+.body{
+    padding-top: 22px;
+    width: 100%;
+    height: calc(100% - 22px);
+    background-color: rgba(0, 0, 0, 0.94);
+    overflow-x: hidden;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+}
+.body::-webkit-scrollbar {
+    width: 5px;
+    height: 0px;
+}
+.body::-webkit-scrollbar-thumb{
+    background-color: #747879;
+    border-radius: 1px;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.body video{
+    width: 100%;
+}
+.m-right{
+    margin-top: 12px;
+    overflow: hidden;
+}
+.m-right .title{
+    font-size: 32px;
+    line-height: 36px;
+    color: white;
+}
+.m-right .details{
+    line-height: 40px;
+    padding-left: 12px;
+    font-size: 17px;
+}
+.m-right .details span{
+    padding-right:12px;
+    font-weight: 400;
+    color: #d5d5d5;
+}
+.m-right .summary{
+    font-weight: 400;
+    font-size: 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    line-height: 19.5px;
+    padding: 0 12px;
+    margin-bottom: 42px;
+}

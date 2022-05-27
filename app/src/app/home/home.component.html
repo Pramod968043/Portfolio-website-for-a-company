@@ -1,0 +1,27 @@
+<div class="nav">
+    <span>Dashboard</span>
+</div>
+<div class="body" *ngIf="movies">
+    <div class="heading">Top Hits</div>
+    <div class="movie-container">
+        <img *ngFor="let mv of movies;let i=index" (click)="open(i)" [src]="mv?.poster" class="movies">
+    </div>
+    <div class="heading">New Releases</div>
+    <div class="movie-container">
+        <img *ngFor="let mv of movies;let i=index" (click)="open(i)" [src]="mv?.poster" class="movies">
+    </div>
+    <div class="heading">Award-Winning Films</div>
+    <div class="movie-container">
+        <img *ngFor="let mv of movies;let i=index" (click)="open(i)" [src]="mv?.poster">
+    </div>
+</div>
+<div class="movie-dialog" *ngIf="show && movies[ele]">
+    <span (click)="show=false" class="material-icons clear">clear</span>
+    <img [routerLink]="['movie/'+ele]" [src]="movies[ele]?.poster">
+    <div class="m-right">
+        <div class="title">{{movies[ele]?.title}}</div>
+        <div class="details"><span>{{movies[ele]?.year}}</span><span>{{movies[ele]?.rating}}</span><span>{{movies[ele]?.duration}}</span></div>
+        <div class="summary">{{movies[ele]?.summary}}</div>
+        <div [routerLink]="['movie/'+ele]" class="preview"><span class="material-icons">info_outline</span>Details & More<span class="material-icons">arrow_forward_ios</span></div>
+    </div>
+</div>

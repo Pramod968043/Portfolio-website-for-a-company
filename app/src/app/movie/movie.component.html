@@ -1,0 +1,12 @@
+<div class="nav">
+    <span><strong style="cursor:pointer" routerLink="">Home</strong> - {{movies[id]?.title}}</span>
+</div>
+<div class="body">
+    <div class="container" *ngIf="movies">
+        <video autoplay preload controls [src]="movies[id]?.trailer"></video>
+        <div class="m-right">
+            <div class="details"><span>{{movies[id]?.year}}</span><span>{{movies[id]?.rating}}</span><span>{{movies[id]?.duration}}</span></div>
+            <div class="summary">{{movies[id]?.summary}}</div>
+        </div>
+    </div>
+</div>
