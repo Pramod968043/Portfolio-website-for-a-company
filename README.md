@@ -19,7 +19,7 @@
 - Open the server folder and run ``` node server.js ``` in the terminal 
 - It will start listening on `http://localhost:8080`.
 
-## My Though process while solving the coding problem
+## My Thought process while solving the coding problem
 - Which approach for data sharing would be best while working with the current data and for the future scallability.
 - How can I make the UI and designs interactive with less and optimized data.
 - To develop and implement an algorithm which will find the data related to movies over the web on different websites and will return the final data, which later can be used to serve our the websit, but piracy interrupted me while thinking
